@@ -8,8 +8,8 @@ function appConfig($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('dashboard', {
             url: "/",
-            templateUrl: "app/components/login/login.html",
-            controller: "loginController",
+            template: "<h1>Hello DreamTeamUA!</h1>",
+            controller: "dashboardController",
             data: {
                 requireLogin: true
             }
@@ -17,7 +17,7 @@ function appConfig($stateProvider, $urlRouterProvider) {
         .state('login', {
             url: "/login",
             templateUrl: "app/components/login/login.html",
-            controller: "loginController",
+            controller: "loginController as loginCtrl",
             data: {
                 requireLogin: false
             }

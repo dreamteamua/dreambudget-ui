@@ -6,7 +6,7 @@ app.service('User',
             this.isAuth = function () {
                 //return $http.get('/isAuth');
                 var deferred = $q.defer();
-                deferred.resolve({data: 'Login seccuss'});
+                deferred.reject({data: "Need login"});
                 return deferred.promise;
                 //return {data: 'Login seccuss'};
             };
@@ -14,6 +14,10 @@ app.service('User',
 
             this.signUp = function (data) {
                 return $http.post(config.apiUrl + '/user', data);
+            };
+
+            this.signIn = function (data) {
+                return $http.post(config.apiUrl + '/user/login', data);
             };
 
         }
