@@ -1,0 +1,236 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'isntall' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/var/www/html/angular',
+5 verbose install   [ 'protractor',
+5 verbose install     'http-server',
+5 verbose install     'bower',
+5 verbose install     'shelljs',
+5 verbose install     'karma-junit-reporter',
+5 verbose install     'selenium-webdriver',
+5 verbose install     'grunt',
+5 verbose install     'grunt-cli',
+5 verbose install     'grunt-html2js',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-connect',
+5 verbose install     'grunt-contrib-compress',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-bower-task' ] ]
+6 info preinstall material-start@0.0.2
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping bower@^1.3.1 /var/www/html/angular
+9 verbose already installed skipping protractor@^2.0.0 /var/www/html/angular
+10 verbose already installed skipping http-server@^0.6.1 /var/www/html/angular
+11 verbose already installed skipping shelljs@^0.2.6 /var/www/html/angular
+12 verbose already installed skipping karma-junit-reporter@^0.2.2 /var/www/html/angular
+13 verbose already installed skipping selenium-webdriver@^2.45.1 /var/www/html/angular
+14 verbose already installed skipping grunt@~0.4.5 /var/www/html/angular
+15 verbose already installed skipping grunt-cli@~0.1.13 /var/www/html/angular
+16 verbose already installed skipping grunt-html2js@~0.2.7 /var/www/html/angular
+17 verbose already installed skipping grunt-contrib-uglify@~0.5.0 /var/www/html/angular
+18 verbose already installed skipping grunt-contrib-clean@~0.5.0 /var/www/html/angular
+19 verbose already installed skipping grunt-contrib-connect@~0.8.0 /var/www/html/angular
+20 verbose already installed skipping grunt-contrib-concat@~0.4.0 /var/www/html/angular
+21 verbose already installed skipping grunt-contrib-compress@~0.9.1 /var/www/html/angular
+22 verbose already installed skipping grunt-contrib-jshint@~0.10.0 /var/www/html/angular
+23 verbose already installed skipping grunt-contrib-watch@~0.6.1 /var/www/html/angular
+24 verbose already installed skipping grunt-bower-task@~0.3.4 /var/www/html/angular
+25 silly resolved []
+26 info build /var/www/html/angular
+27 verbose linkStuff [ false, false, false, '/var/www/html' ]
+28 info linkStuff material-start@0.0.2
+29 verbose linkBins material-start@0.0.2
+30 verbose linkMans material-start@0.0.2
+31 verbose rebuildBundles material-start@0.0.2
+32 verbose rebuildBundles [ '.bin',
+32 verbose rebuildBundles   'bower',
+32 verbose rebuildBundles   'grunt',
+32 verbose rebuildBundles   'grunt-bower-task',
+32 verbose rebuildBundles   'grunt-cli',
+32 verbose rebuildBundles   'grunt-contrib-clean',
+32 verbose rebuildBundles   'grunt-contrib-compress',
+32 verbose rebuildBundles   'grunt-contrib-concat',
+32 verbose rebuildBundles   'grunt-contrib-connect',
+32 verbose rebuildBundles   'grunt-contrib-jshint',
+32 verbose rebuildBundles   'grunt-contrib-uglify',
+32 verbose rebuildBundles   'grunt-contrib-watch',
+32 verbose rebuildBundles   'grunt-html2js',
+32 verbose rebuildBundles   'grunt-karma',
+32 verbose rebuildBundles   'http-server',
+32 verbose rebuildBundles   'karma',
+32 verbose rebuildBundles   'karma-chrome-launcher',
+32 verbose rebuildBundles   'karma-coffee-preprocessor',
+32 verbose rebuildBundles   'karma-firefox-launcher',
+32 verbose rebuildBundles   'karma-html2js-preprocessor',
+32 verbose rebuildBundles   'karma-jasmine',
+32 verbose rebuildBundles   'karma-junit-reporter',
+32 verbose rebuildBundles   'karma-phantomjs-launcher',
+32 verbose rebuildBundles   'karma-requirejs',
+32 verbose rebuildBundles   'karma-script-launcher',
+32 verbose rebuildBundles   'protractor',
+32 verbose rebuildBundles   'requirejs',
+32 verbose rebuildBundles   'selenium-webdriver',
+32 verbose rebuildBundles   'shelljs' ]
+33 verbose rebuild bundle /var/www/html/angular/node_modules/grunt-karma
+34 info build /var/www/html/angular/node_modules/grunt-karma
+35 info preinstall grunt-karma@0.8.3
+36 verbose linkStuff [ false, false, false, '/var/www/html/angular/node_modules' ]
+37 info linkStuff grunt-karma@0.8.3
+38 verbose linkBins grunt-karma@0.8.3
+39 verbose linkMans grunt-karma@0.8.3
+40 verbose rebuildBundles grunt-karma@0.8.3
+41 verbose rebuildBundles [ 'lodash' ]
+42 info install grunt-karma@0.8.3
+43 info postinstall grunt-karma@0.8.3
+44 verbose rebuild bundle /var/www/html/angular/node_modules/karma
+45 info build /var/www/html/angular/node_modules/karma
+46 info preinstall karma@0.10.10
+47 verbose linkStuff [ false, false, false, '/var/www/html/angular/node_modules' ]
+48 info linkStuff karma@0.10.10
+49 verbose linkBins karma@0.10.10
+50 verbose link bins [ { karma: './bin/karma' },
+50 verbose link bins   '/var/www/html/angular/node_modules/.bin',
+50 verbose link bins   false ]
+51 verbose linkMans karma@0.10.10
+52 verbose rebuildBundles karma@0.10.10
+53 verbose rebuildBundles [ '.bin',
+53 verbose rebuildBundles   'chokidar',
+53 verbose rebuildBundles   'coffee-script',
+53 verbose rebuildBundles   'colors',
+53 verbose rebuildBundles   'connect',
+53 verbose rebuildBundles   'di',
+53 verbose rebuildBundles   'glob',
+53 verbose rebuildBundles   'graceful-fs',
+53 verbose rebuildBundles   'http-proxy',
+53 verbose rebuildBundles   'lodash',
+53 verbose rebuildBundles   'log4js',
+53 verbose rebuildBundles   'mime',
+53 verbose rebuildBundles   'minimatch',
+53 verbose rebuildBundles   'optimist',
+53 verbose rebuildBundles   'q',
+53 verbose rebuildBundles   'rimraf',
+53 verbose rebuildBundles   'socket.io',
+53 verbose rebuildBundles   'useragent' ]
+54 info install karma@0.10.10
+55 info postinstall karma@0.10.10
+56 verbose rebuild bundle /var/www/html/angular/node_modules/karma-chrome-launcher
+57 info build /var/www/html/angular/node_modules/karma-chrome-launcher
+58 info preinstall karma-chrome-launcher@0.1.12
+59 verbose linkStuff [ false, false, false, '/var/www/html/angular/node_modules' ]
+60 info linkStuff karma-chrome-launcher@0.1.12
+61 verbose linkBins karma-chrome-launcher@0.1.12
+62 verbose linkMans karma-chrome-launcher@0.1.12
+63 verbose rebuildBundles karma-chrome-launcher@0.1.12
+64 verbose rebuildBundles [ '.bin', 'which' ]
+65 info install karma-chrome-launcher@0.1.12
+66 info postinstall karma-chrome-launcher@0.1.12
+67 verbose rebuild bundle /var/www/html/angular/node_modules/karma-coffee-preprocessor
+68 info build /var/www/html/angular/node_modules/karma-coffee-preprocessor
+69 info preinstall karma-coffee-preprocessor@0.1.3
+70 verbose linkStuff [ false, false, false, '/var/www/html/angular/node_modules' ]
+71 info linkStuff karma-coffee-preprocessor@0.1.3
+72 verbose linkBins karma-coffee-preprocessor@0.1.3
+73 verbose linkMans karma-coffee-preprocessor@0.1.3
+74 verbose rebuildBundles karma-coffee-preprocessor@0.1.3
+75 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+76 info install karma-coffee-preprocessor@0.1.3
+77 info postinstall karma-coffee-preprocessor@0.1.3
+78 verbose rebuild bundle /var/www/html/angular/node_modules/karma-firefox-launcher
+79 info build /var/www/html/angular/node_modules/karma-firefox-launcher
+80 info preinstall karma-firefox-launcher@0.1.6
+81 verbose linkStuff [ false, false, false, '/var/www/html/angular/node_modules' ]
+82 info linkStuff karma-firefox-launcher@0.1.6
+83 verbose linkBins karma-firefox-launcher@0.1.6
+84 verbose linkMans karma-firefox-launcher@0.1.6
+85 verbose rebuildBundles karma-firefox-launcher@0.1.6
+86 info install karma-firefox-launcher@0.1.6
+87 info postinstall karma-firefox-launcher@0.1.6
+88 verbose rebuild bundle /var/www/html/angular/node_modules/karma-html2js-preprocessor
+89 info build /var/www/html/angular/node_modules/karma-html2js-preprocessor
+90 info preinstall karma-html2js-preprocessor@0.1.0
+91 verbose linkStuff [ false, false, false, '/var/www/html/angular/node_modules' ]
+92 info linkStuff karma-html2js-preprocessor@0.1.0
+93 verbose linkBins karma-html2js-preprocessor@0.1.0
+94 verbose linkMans karma-html2js-preprocessor@0.1.0
+95 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+96 info install karma-html2js-preprocessor@0.1.0
+97 info postinstall karma-html2js-preprocessor@0.1.0
+98 verbose rebuild bundle /var/www/html/angular/node_modules/karma-jasmine
+99 info build /var/www/html/angular/node_modules/karma-jasmine
+100 info preinstall karma-jasmine@0.1.6
+101 verbose linkStuff [ false, false, false, '/var/www/html/angular/node_modules' ]
+102 info linkStuff karma-jasmine@0.1.6
+103 verbose linkBins karma-jasmine@0.1.6
+104 verbose linkMans karma-jasmine@0.1.6
+105 verbose rebuildBundles karma-jasmine@0.1.6
+106 info install karma-jasmine@0.1.6
+107 info postinstall karma-jasmine@0.1.6
+108 verbose rebuild bundle /var/www/html/angular/node_modules/karma-phantomjs-launcher
+109 info build /var/www/html/angular/node_modules/karma-phantomjs-launcher
+110 info preinstall karma-phantomjs-launcher@0.1.4
+111 verbose linkStuff [ false, false, false, '/var/www/html/angular/node_modules' ]
+112 info linkStuff karma-phantomjs-launcher@0.1.4
+113 verbose linkBins karma-phantomjs-launcher@0.1.4
+114 verbose linkMans karma-phantomjs-launcher@0.1.4
+115 verbose rebuildBundles karma-phantomjs-launcher@0.1.4
+116 verbose rebuildBundles [ '.bin', 'phantomjs' ]
+117 info install karma-phantomjs-launcher@0.1.4
+118 info postinstall karma-phantomjs-launcher@0.1.4
+119 verbose rebuild bundle /var/www/html/angular/node_modules/karma-requirejs
+120 info build /var/www/html/angular/node_modules/karma-requirejs
+121 info preinstall karma-requirejs@0.2.2
+122 verbose linkStuff [ false, false, false, '/var/www/html/angular/node_modules' ]
+123 info linkStuff karma-requirejs@0.2.2
+124 verbose linkBins karma-requirejs@0.2.2
+125 verbose linkMans karma-requirejs@0.2.2
+126 verbose rebuildBundles karma-requirejs@0.2.2
+127 info install karma-requirejs@0.2.2
+128 info postinstall karma-requirejs@0.2.2
+129 verbose rebuild bundle /var/www/html/angular/node_modules/karma-script-launcher
+130 info build /var/www/html/angular/node_modules/karma-script-launcher
+131 info preinstall karma-script-launcher@0.1.0
+132 verbose linkStuff [ false, false, false, '/var/www/html/angular/node_modules' ]
+133 info linkStuff karma-script-launcher@0.1.0
+134 verbose linkBins karma-script-launcher@0.1.0
+135 verbose linkMans karma-script-launcher@0.1.0
+136 verbose rebuildBundles karma-script-launcher@0.1.0
+137 info install karma-script-launcher@0.1.0
+138 info postinstall karma-script-launcher@0.1.0
+139 verbose rebuild bundle /var/www/html/angular/node_modules/requirejs
+140 info build /var/www/html/angular/node_modules/requirejs
+141 info preinstall requirejs@2.1.20
+142 verbose linkStuff [ false, false, false, '/var/www/html/angular/node_modules' ]
+143 info linkStuff requirejs@2.1.20
+144 verbose linkBins requirejs@2.1.20
+145 verbose link bins [ { 'r.js': './bin/r.js' },
+145 verbose link bins   '/var/www/html/angular/node_modules/.bin',
+145 verbose link bins   false ]
+146 verbose linkMans requirejs@2.1.20
+147 verbose rebuildBundles requirejs@2.1.20
+148 info install requirejs@2.1.20
+149 info postinstall requirejs@2.1.20
+150 info install material-start@0.0.2
+151 info postinstall material-start@0.0.2
+152 warn cannot run in wd material-start@0.0.2 bower update (wd=/var/www/html/angular)
+153 info prepublish material-start@0.0.2
+154 error peerinvalid The package karma does not satisfy its siblings' peerDependencies requirements!
+154 error peerinvalid Peer karma-junit-reporter@0.2.2 wants karma@>=0.9
+154 error peerinvalid Peer karma-html2js-preprocessor@0.1.0 wants karma@>=0.9
+154 error peerinvalid Peer karma-jasmine@0.1.6 wants karma@>=0.9
+154 error peerinvalid Peer karma-requirejs@0.2.2 wants karma@>=0.9
+154 error peerinvalid Peer karma-script-launcher@0.1.0 wants karma@>=0.9
+154 error peerinvalid Peer grunt-karma@0.8.3 wants karma@~0.12.0
+154 error peerinvalid Peer karma-coffee-preprocessor@0.1.3 wants karma@>=0.9
+154 error peerinvalid Peer karma-phantomjs-launcher@0.1.4 wants karma@>=0.9
+155 error System Linux 3.16.0-38-generic
+156 error command "/usr/bin/nodejs" "/usr/bin/npm" "isntall"
+157 error cwd /var/www/html/angular
+158 error node -v v0.10.25
+159 error npm -v 1.3.10
+160 error code EPEERINVALID
+161 verbose exit [ 1, true ]
